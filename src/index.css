@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 260 25% 3%;
+    --foreground: 0 0% 95%;
+    --card: 260 18% 8%;
+    --card-foreground: 0 0% 95%;
+    --popover: 260 18% 8%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 263 83% 58%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 260 18% 13%;
+    --secondary-foreground: 0 0% 90%;
+    --muted: 260 12% 18%;
+    --muted-foreground: 260 8% 55%;
+    --accent: 254 92% 85%;
+    --accent-foreground: 260 25% 5%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 263 25% 18%;
+    --input: 263 18% 16%;
+    --ring: 263 83% 58%;
+    --radius: 0.75rem;
+    --lavender: 263 83% 58%;
+    --lavender-soft: 263 70% 76%;
+    --lavender-glow: 254 92% 85%;
+    --sidebar-background: 260 20% 5%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 263 83% 58%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 260 15% 15%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 263 25% 18%;
+    --sidebar-ring: 263 83% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    overflow-x: hidden;
+  }
+}
+
+.glass {
+  background: hsla(263, 83%, 58%, 0.06);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid hsla(263, 83%, 58%, 0.12);
+}
+
+.glass-card {
+  background: hsla(260, 18%, 8%, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid hsla(263, 83%, 58%, 0.08);
+}
+
+.glow-lavender {
+  box-shadow: 0 0 40px hsla(263, 83%, 58%, 0.25),
+    0 0 80px hsla(263, 83%, 58%, 0.08);
+}
+
+.glow-lavender-sm {
+  box-shadow: 0 0 20px hsla(263, 83%, 58%, 0.15);
+}
+
+.gradient-lavender-bg {
+  background: radial-gradient(
+    ellipse at 50% 0%,
+    hsla(263, 83%, 58%, 0.1) 0%,
+    transparent 60%
+  );
+}
+
+.gradient-hero {
+  background: radial-gradient(
+      ellipse at 70% 40%,
+      hsla(263, 83%, 58%, 0.15) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at 20% 80%,
+      hsla(254, 92%, 85%, 0.06) 0%,
+      transparent 40%
+    );
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(260, 25%, 3%);
+}
+::-webkit-scrollbar-thumb {
+  background: hsla(263, 83%, 58%, 0.3);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsla(263, 83%, 58%, 0.5);
+}
+
+/* ================= AUTO SCROLL CAROUSEL (UPDATED) ================= */
+/* GPU-based transform prevents stutter when images decode/load */
+@keyframes scroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-scroll {
+  animation: scroll var(--scroll-duration, 30s) linear infinite !important;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  contain: layout paint;
+  -webkit-font-smoothing: antialiased;
+}
