@@ -66,7 +66,7 @@ const Combos = () => (
               <div className="absolute -inset-4 rounded-3xl glow-lavender opacity-30" />
               <div className="aspect-square overflow-hidden rounded-3xl relative">
                 <img
-                  src="/images/combos/ultimate-dash-party-box.jpg"
+                  src="/images/combos/ultimate-dash-party-box.webp"
                   alt="Delicious food combos"
                   className="w-full h-full object-cover object-center animate-float filter brightness-110 contrast-110 shadow-2xl"
                 />

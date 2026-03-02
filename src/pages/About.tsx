@@ -44,7 +44,7 @@ const About = () => (
         </h1>
 
         <p className="text-black text-sm sm:text-base md:text-lg max-w-2xl mx-auto">
-          We started with a simple idea — make delicious food accessible, fast, and unforgettable.
+          We started with a simple idea make delicious food accessible, fast, and unforgettable.
           Today, Dip & Dash is where cravings meet satisfaction.
         </p>
       </div>

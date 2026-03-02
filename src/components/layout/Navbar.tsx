@@ -49,7 +49,7 @@ const Navbar = () => {
             }}
           >
             <img
-              src="/images/logos/dip-and-dash-logo.png"
+              src="/images/logos/dip-and-dash-logo.webp"
               alt="Dip & Dash"
               className="h-10 md:h-12 w-auto object-contain"
             />

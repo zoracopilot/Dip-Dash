@@ -81,7 +81,7 @@ const Food = () => {
             {/* RIGHT HERO IMAGE — IMAGE ONLY (NO BOX) */}
             <div className="relative flex justify-center mt-6 sm:mt-8 lg:mt-0">
               <img
-                src="/images/logos/dip-and-dash-logo.png"
+                src="/images/logos/dip-and-dash-logo.webp"
                 alt="Dip & Dash Logo"
                 decoding="async"
                 draggable={false}
@@ -125,7 +125,7 @@ const Food = () => {
           </div>
 
           {/* FOOD GRID */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-8 md:gap-9 lg:gap-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-8 md:gap-9 lg:gap-10">
             {filtered.map((item) => (
               <div
                 key={item.id}

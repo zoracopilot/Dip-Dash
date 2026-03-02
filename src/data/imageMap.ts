@@ -6,102 +6,102 @@
 
 // Combo Images Mapping
 export const comboImages = {
-  "catch-crunch-combo": "/images/combos/catch-and-crunch-combo.jpg",
-  "ultimate-party-box": "/images/combos/ultimate-dash-party-box.jpg",
-  "ocean-chips-basket": "/images/combos/ocean-and-chips-basket.jpg",
-  "golden-prawn-explosion": "/images/combos/golden-prawn-explosion.jpg",
+  "catch-crunch-combo": "/images/combos/catch-and-crunch-combo.webp",
+  "ultimate-party-box": "/images/combos/ultimate-dash-party-box.webp",
+  "ocean-chips-basket": "/images/combos/ocean-and-chips-basket.webp",
+  "golden-prawn-explosion": "/images/combos/golden-prawn-explosion.webp",
 } as const;
 
 // Individual Food Images - Burgers
 export const burgerImages = {
-  "dash-classic-chicken": "/images/dash-classic-chicken-supreme.jpg",
-  "smash-dash-chicken": "/images/smash-dash-chicken.jpg",
-  "nashville-fire-dash": "/images/nashville-fire-dash-chicken.jpg",
-  "korean-kick-dash": "/images/korean-kick-dash-chicken.jpg",
-  "royal-chicken-tower": "/images/royal-chicken-tower.jpg",
-  "og-smash-beef": "/images/og-smash-beef-beast.jpg",
-  "flame-grill-beef-dash": "/images/flame-grill-beef-dash.jpg",
-  "prime-beef-royale": "/images/prime-beef-royale.jpg",
-  "beef-blast-overload": "/images/beef-blast-overload.jpg",
-  "ocean-catch-dash": "/images/ocean-catch-dash.jpg",
-  "royal-fish-stack": "/images/royal-fish-stack.jpg",
+  "dash-classic-chicken": "/images/dash-classic-chicken-supreme.webp",
+  "smash-dash-chicken": "/images/smash-dash-chicken.webp",
+  "nashville-fire-dash": "/images/nashville-fire-dash-chicken.webp",
+  "korean-kick-dash": "/images/korean-kick-dash-chicken.webp",
+  "royal-chicken-tower": "/images/royal-chicken-tower.webp",
+  "og-smash-beef": "/images/og-smash-beef-beast.webp",
+  "flame-grill-beef-dash": "/images/flame-grill-beef-dash.webp",
+  "prime-beef-royale": "/images/prime-beef-royale.webp",
+  "beef-blast-overload": "/images/beef-blast-overload.webp",
+  "ocean-catch-dash": "/images/ocean-catch-dash.webp",
+  "royal-fish-stack": "/images/royal-fish-stack.webp",
 } as const;
 
 // Individual Food Images - Quick Bites & Fries
 export const friesImages = {
-  "loaded-dash-fries": "/images/signature-loaded-dash-fries.jpg",
-  "cheesy-melt-fries": "/images/cheesy-melt-dash-fries.jpg",
-  "korean-heat-fries": "/images/korean-heat-fries.jpg",
-  "nashville-inferno-fries": "/images/nashville-inferno-fries.jpg",
-  "catch-crunch-combo": "/images/combos/catch-and-crunch-combo.jpg",
+  "loaded-dash-fries": "/images/signature-loaded-dash-fries.webp",
+  "cheesy-melt-fries": "/images/cheesy-melt-dash-fries.webp",
+  "korean-heat-fries": "/images/korean-heat-fries.webp",
+  "nashville-inferno-fries": "/images/nashville-inferno-fries.webp",
+  "catch-crunch-combo": "/images/combos/catch-and-crunch-combo.webp",
 } as const;
 
 // Individual Food Images - Pops & Boxes
 export const popsImages = {
-  "crispy-chicken-pops": "/images/crispy-chicken-dash-pops.jpg",
-  "fire-blast-pops": "/images/fire-blast-chicken-pops.jpg",
-  "seoul-spice-pops": "/images/seoul-spice-pops.jpg",
-  "ultimate-party-box": "/images/combos/ultimate-dash-party-box.jpg",
+  "crispy-chicken-pops": "/images/crispy-chicken-dash-pops.webp",
+  "fire-blast-pops": "/images/fire-blast-chicken-pops.webp",
+  "seoul-spice-pops": "/images/seoul-spice-pops.webp",
+  "ultimate-party-box": "/images/combos/ultimate-dash-party-box.webp",
 } as const;
 
 // Individual Food Images - Rolls
 export const rollImages = {
-  "turkish-flame-roll": "/images/turkish-flame-roll.jpg",
-  "mediterranean-crunch": "/images/mediterranean-crunch-roll.jpg",
-  "smash-chicken-roll": "/images/smash-chicken-roll.jpg",
-  "fire-grill-roll": "/images/fire-grill-roll.jpg",
+  "turkish-flame-roll": "/images/turkish-flame-roll.webp",
+  "mediterranean-crunch": "/images/mediterranean-crunch-roll.webp",
+  "smash-chicken-roll": "/images/smash-chicken-roll.webp",
+  "fire-grill-roll": "/images/fire-grill-roll.webp",
 } as const;
 
 // Individual Food Images - Fried Chicken & Seafood
 export const friedChickenImages = {
-  "original-crispy-chicken": "/images/original-crispy-dash-chicken.jpg",
-  "nashville-hot-fried": "/images/nashville-hot-fried-chicken.jpg",
-  "golden-fish-fry": "/images/golden-fish-fry-dash.jpg",
-  "crispy-shrimp-crunch": "/images/crispy-shrimp-crunch.jpg",
-  "ocean-chips-basket": "/images/combos/ocean-and-chips-basket.jpg",
-  "golden-prawn-explosion": "/images/combos/golden-prawn-explosion.jpg",
+  "original-crispy-chicken": "/images/original-crispy-dash-chicken.webp",
+  "nashville-hot-fried": "/images/nashville-hot-fried-chicken.webp",
+  "golden-fish-fry": "/images/golden-fish-fry-dash.webp",
+  "crispy-shrimp-crunch": "/images/crispy-shrimp-crunch.webp",
+  "ocean-chips-basket": "/images/combos/ocean-and-chips-basket.webp",
+  "golden-prawn-explosion": "/images/combos/golden-prawn-explosion.webp",
 } as const;
 
 // Individual Food Images - Sandwiches
 export const sandwichImages = {
-  "fresh-garden-veg": "/images/fresh-garden-veg-stack.jpg",
-  "veg-club-melt": "/images/veg-club-melt.jpg",
-  "cheesy-corn-blast": "/images/cheesy-corn-blast.jpg",
-  "desi-tikki-deluxe": "/images/desi-tikki-deluxe.jpg",
-  "beef-supreme-stack": "/images/beef-supreme-stack.jpg",
+  "fresh-garden-veg": "/images/fresh-garden-veg-stack.webp",
+  "veg-club-melt": "/images/veg-club-melt.webp",
+  "cheesy-corn-blast": "/images/cheesy-corn-blast.webp",
+  "desi-tikki-deluxe": "/images/desi-tikki-deluxe.webp",
+  "beef-supreme-stack": "/images/beef-supreme-stack.webp",
 } as const;
 
 // Individual Food Images - Premium Shakes
 export const shakeImages = {
-  "nutella-power-dash": "/images/nutella-power-dash.jpg",
-  "double-choco-blast": "/images/double-choco-blast.jpg",
-  "coconut-cream-royale": "/images/coconut-cream-royale.jpg",
-  "classic-coffee-kick": "/images/classic-coffee-kick.jpg",
-  "milo-madness": "/images/milo-madness.jpg",
+  "nutella-power-dash": "/images/nutella-power-dash.webp",
+  "double-choco-blast": "/images/double-choco-blast.webp",
+  "coconut-cream-royale": "/images/coconut-cream-royale.webp",
+  "classic-coffee-kick": "/images/classic-coffee-kick.webp",
+  "milo-madness": "/images/milo-madness.webp",
 } as const;
 
 // Individual Food Images - Hot Specials
 export const hotDrinkImages = {
-  "hot-milo-comfort": "/images/hot-milo-comfort.jpg",
-  "choco-heat": "/images/choco-heat.jpg",
-  "mocha-dash": "/images/mocha-dash.jpg",
+  "hot-milo-comfort": "/images/hot-milo-comfort.webp",
+  "choco-heat": "/images/choco-heat.webp",
+  "mocha-dash": "/images/mocha-dash.webp",
 } as const;
 
 // Individual Food Images - Mojito Bar
 export const mojitosImages = {
-  "blue-lightning-mojito": "/images/blue-lightning-mojito.jpg",
-  "pink-paradise-mojito": "/images/pink-paradise-mojito.jpg",
-  "berry-blast-mojito": "/images/berry-blast-mojito.jpg",
-  "melon-chill-mojito": "/images/melon-chill-mojito.jpg",
-  "raspberry-rush-mojito": "/images/raspberry-rush-mojito.jpg",
-  "creamy-milk-punch": "/images/creamy-milk-punch.jpg",
+  "blue-lightning-mojito": "/images/blue-lightning-mojito.webp",
+  "pink-paradise-mojito": "/images/pink-paradise-mojito.webp",
+  "berry-blast-mojito": "/images/berry-blast-mojito.webp",
+  "melon-chill-mojito": "/images/melon-chill-mojito.webp",
+  "raspberry-rush-mojito": "/images/raspberry-rush-mojito.webp",
+  "creamy-milk-punch": "/images/creamy-milk-punch.webp",
 } as const;
 
 // Individual Food Images - Desserts
 export const dessertImages = {
-  "creamy-milk-punch": "/images/creamy-milk-punch.jpg",
-  "brownie-bliss-bowl": "/images/brownie-bliss-bowl.jpg",
-  "dubai-royal-delight": "/images/dubai-royal-delight.jpg",
+  "creamy-milk-punch": "/images/creamy-milk-punch.webp",
+  "brownie-bliss-bowl": "/images/brownie-bliss-bowl.webp",
+  "dubai-royal-delight": "/images/dubai-royal-delight.webp",
 } as const;
 
 // Master image map - combine all categories
@@ -130,7 +130,8 @@ export function getImagePath(itemId: string, category?: string): string {
 
   // If category is provided, check in that category
   if (category && category in imageMapByCategory) {
-    const categoryMap = imageMapByCategory[category as keyof typeof imageMapByCategory];
+    const categoryMap =
+      imageMapByCategory[category as keyof typeof imageMapByCategory];
     if (itemId in categoryMap) {
       return categoryMap[itemId as keyof typeof categoryMap];
     }
@@ -144,7 +145,7 @@ export function getImagePath(itemId: string, category?: string): string {
   }
 
   // Default fallback image
-  return "/images/placeholder.jpg";
+  return "/images/placeholder.webp";
 }
 
 // Export all images as flat list for reference
