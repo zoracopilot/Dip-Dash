@@ -38,4 +38,4 @@ User-agent: *
 Allow: /
 
 # ✅ Sitemap for search engines
-Sitemap: http://localhost:8081/sitemap.xml
+Sitemap: https://dipanddash.com/sitemap.xml
